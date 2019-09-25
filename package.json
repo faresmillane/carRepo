@@ -1,0 +1,37 @@
+{
+  "name": "car-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint .",
+    "dev": "nodemon .",
+    "test": "mocha --timeout 100000 tests/*.test.js --exit",
+    "test:dev": "mocha tests/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.3.3",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4",
+    "unique-slug": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.4.0",
+    "eslint-plugin-mocha": "^6.1.1",
+    "eslint-plugin-node": "^10.0.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.2"
+  }
+}
