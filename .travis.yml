@@ -1,6 +1,9 @@
 language: node_js
 node_js:
-- "12"
+- '12'
 script:
 - npm run test
 - npm test
+env:
+  matrix:
+    secure: IgjJVLkojOimsAzcFekjCJL0D0mPG9kjsk3W7lTrMlIr1+HpGYiqJ62+/72Afke8Yd9wWATI/LaofXrVIWbHY3kvQv0JxwHPD9lBPczlO7vHqSNj+v3cTKapdjmK5tL1AASZQBGk8Yab38Yh3TDdPyttwEfrMHczScN9r0ObY3nTuhuZM7FJrD+8BKSCTcLnhhBDRwS4HQSY59Xwmbfd97Dg4nJ9ixm3vRWY9zLZC61RNYiTKT8yJ6fQ6Yf7Gf0daS5DPwk0TQv7Q+T0xmDEFp6Xmcw8ayG9vRad97+nqlQ4TU6ZDVVSLWjL10/7szcazRzgd4jFPDl2wo+cx1HbRb0t5ZzaILuFmupA9UPMmn+e73YNhnpYqxzmdcNyq3/HFtvPxo8SWndWGRg7oBl//u1K8xXEfKv6zZWIRrSMRxbZQkpknN0S6TTZsoPlPHFKpm0zFgVul8vQ1MDOxxm+mFhNHTLoBCkoJvVcKCOS+lrs/uNa8dHiJ5E2rKanqzBpEwrGGZNDIRQ+619vcAcy4Uqmc11bWZhdETgRa7t1Nzak7VU8iz2ZxbBeEQouqGWVO2C8mDDC1Cq0hzruv3KDySuB+L3dogiaURVt6BrWYvK85jNXqZc0RHhS2Y7Fr4tGxy7IvEBQXflotvQyiUpod7zXicJJfaeiC/C47+Fwxv0=
