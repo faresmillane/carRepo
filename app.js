@@ -17,7 +17,7 @@ mongoose.connect(MONGODB_URI,
     if (!err){
         console.log('connected to DB!');
     } else {
-        console.log("error");
+        console.log("error", err);
     }
     //var car = new require('./models/carModel')();
     //car.save();
